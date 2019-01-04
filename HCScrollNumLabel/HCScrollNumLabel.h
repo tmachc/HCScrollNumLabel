@@ -17,6 +17,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, readonly) CGFloat height;
 
 - (instancetype)initWithText:(NSString *)text font:(UIFont *)font color:(UIColor *)color;
+- (void)setText:(NSString *)text font:(UIFont *)font color:(UIColor *)color;
+- (void)reset;
 - (void)startAnimate;
 
 @end
